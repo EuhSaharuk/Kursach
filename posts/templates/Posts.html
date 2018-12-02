@@ -6,7 +6,8 @@
         <div class="col-md-12 column">
             {% for p in posts %}
             <div class="well">
-                {{ post.text }}
+                <h1>{{ p }}</h1>
+                <h3>{{ p.text }}</h3>
             </div>
             {% endfor %}
         </div>

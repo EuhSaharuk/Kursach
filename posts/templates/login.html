@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block center %}
+    <div class="row">
+    <div class="col">
+    </div>
+    <div class="col-5">
+        <body class="text-center">
+    <form class="form-signin" method="post">{% csrf_token %}
+      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+      <ul class="errorlist nonfield"><li>Пожалуйста, введите правильные имя пользователя и пароль. Оба поля могут быть чувствительны к регистру.</li></ul>
+      <label for="inputEmail" class="sr-only">Email address</label>
+      <input type="text" name="username" id="id_username" class="form-control" placeholder="Username" required="" autofocus="">
+      <label for="inputPassword" class="sr-only">Password</label>
+      <input type="password" name="password"  id="id_password" class="form-control" placeholder="Password" required="">
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
+    </form>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+
+
+{% endblock %}

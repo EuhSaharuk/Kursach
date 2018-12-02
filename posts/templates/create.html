@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% block center %}
+    <script type="text/javascript"
+            src="http://gc.kis.v2.scr.kaspersky-labs.com/7F313E07-11D3-F84A-A865-CA62A1406314/main.js"
+            charset="UTF-8"></script></head>
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-5">
+            <form class="form" method="post">
+                {% csrf_token %}
+                <h1 class="h3 mb-3 font-weight-normal">Пожалуйста, введите данные для регистрации</h1>
+                <!--<input type="hidden" name="csrfmiddlewaretoken" value="dTnXgjg6DMWRwZL7RKewCshYdGmE4fyPni2lGn5oXOVvB2YFAQTpQQbNfpmc20Yx">-->
+                <p><label for="id_username">Имя пользователя:</label>
+                    <input type="text" name="username" maxlength="150" class="form-control" autofocus required
+                           id="id_username">
+                    <span class="helptext">Обязательное поле. Не более 150 символов. Только буквы, цифры и символы @/./+/-/_.</span>
+                </p>
+
+                <p><label for="id_first_name">Имя:</label>
+                    <input type="text" name="first_name" maxlength="30" class="form-control" id="id_first_name"></p>
+
+                <p><label for="id_last_name">Фамилия:</label>
+                    <input type="text" name="last_name" maxlength="150" class="form-control" id="id_last_name"></p>
+
+                <p><label for="id_email">Адрес электронной почты:</label>
+                    <!--<input type="email" name="email" maxlength="254" id="id_email">-->
+                    <input type="email" name="email" maxlength="254" id="id_email" class="form-control"
+                           placeholder="Email address" required="" autofocus=""></p>
+
+                <p><label for="id_password1">Пароль:</label>
+                    <!--<input type="password" name="password1" required id="id_password1">-->
+                    <input type="password" name="password1" required id="id_password1" class="form-control"
+                           placeholder="Password">
+                    <span class="helptext"><ul><li>Ваш пароль не должен совпадать с вашим именем или другой персональной информацией или быть слишком похожим на неё.</li>
+        <li>Ваш пароль должен содержать как минимум 8 символов.</li><li>Ваш пароль не может быть одним из широко распространённых паролей.</li>
+        <li>Ваш пароль не может состоять только из цифр.</li></ul></span></p>
+
+                <p><label for="id_password2">Подтверждение пароля:</label>
+                    <!--<input type="password" name="password2" required id="id_password2"> -->
+                    <input type="password" name="password2" required id="id_password2" class="form-control"
+                           placeholder="Password">
+                    <span class="helptext">Для подтверждения введите, пожалуйста, пароль ещё раз.</span></p>
+
+                <input class="btn btn-block btn-primary" type="submit">
+                <a href="{% url 'user:login' %}">У меня есть аккаунт</a>
+            </form>
+
+        </div>
+        <div class="col">
+        </div>
+    </div>
+
+
+{% endblock %}
