@@ -2,67 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06958020-ab8a-46ec-a505-8d083fdc9de1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kursach" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Site/static/images/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apartment/media/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apartment/media/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apartment/media/some_folder/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apartment/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apartment/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apartment/tests/test_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/templates/LOGIN+.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/tests/test_views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log_sys/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/room_pictures/1538558874790.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/room_pictures/1538558890654.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/room_pictures/1538558997558.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/room_pictures/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/room_pictures/default_wLlqDca.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/static/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/static/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/templates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/tests/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/tests/test_views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apartment/templates/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apartment/templates/room.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apartment/tests/test_models_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apartment/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/category/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/category/tests/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Site/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Site/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Site/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Site/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartment/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apartment/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apartment/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apartment/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/category/tests/test_views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apartment/tests/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apartment/tests/test_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apartment/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apartment/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/category/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/category/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/category/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templates/Posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/Posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_sys/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_sys/tests/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_sys/tests/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/tests/test_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/tests/test_views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_profile/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_profile/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_profile/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Site$test_views.coverage" NAME="test_views Coverage Results" MODIFIED="1543825298293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/posts/tests" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -85,7 +57,7 @@
     <session id="547154321">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.111" value="1" />
           <entry key="project.open.time.121" value="1" />
           <entry key="project.open.time.161" value="1" />
@@ -96,36 +68,40 @@
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.81" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.open.time.98" value="1" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Django Console" value="17" />
-          <entry key="html" value="3362" />
-          <entry key="py" value="5627" />
+          <entry key="html" value="4479" />
+          <entry key="py" value="8788" />
           <entry key="sql" value="27" />
+          <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="3362" />
-          <entry key="Python" value="5644" />
+          <entry key="HTML" value="4479" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="8805" />
           <entry key="Scratch" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="18" />
-          <entry key="py" value="81" />
+          <entry key="html" value="28" />
+          <entry key="py" value="121" />
           <entry key="sql" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="18" />
-          <entry key="Python" value="81" />
+          <entry key="HTML" value="28" />
+          <entry key="Python" value="121" />
           <entry key="Scratch" value="1" />
         </counts>
       </usages-collector>
@@ -136,89 +112,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/posts/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
+            <state relative-caret-position="533">
+              <caret line="106" column="105" selection-start-line="106" selection-start-column="82" selection-end-line="106" selection-end-column="105" />
               <folding>
-                <element signature="e#1137#1181#0#HTML" expanded="true" />
-                <element signature="e#4144#4167#0#HTML" expanded="true" />
+                <element signature="e#4603#4626#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/templates/create.html">
+        <entry file="file://$PROJECT_DIR$/apartment/tests/test_models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-307">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="102">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <marker date="1543789305292" expanded="true" signature="2000:2006" ph="..." />
-                <marker date="1543789305292" expanded="true" signature="2323:2329" ph="..." />
-                <marker date="1543789305292" expanded="true" signature="2759:2789" ph="..." />
+                <marker date="1544342658799" expanded="true" signature="1670:1679" ph="..." />
+                <marker date="1544342658799" expanded="true" signature="1867:1876" ph="..." />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/tests/test_models.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/tests/test_views.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log_sys/tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/apartment/tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/urls.py">
+        <entry file="file://$PROJECT_DIR$/apartment/tests/test_models_pytest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="136">
+              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#0#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Site/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -228,8 +151,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -239,6 +162,12 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="EuhSaharuk &lt;zheka.saharuk@gmail.com&gt;" />
+        <option value="evg" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -254,10 +183,8 @@
         <option value="$PROJECT_DIR$/templates/login.html" />
         <option value="$PROJECT_DIR$/user_profile/urls.py" />
         <option value="$PROJECT_DIR$/user_profile/templates/login.html" />
-        <option value="$PROJECT_DIR$/apartment/views.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/1af234d6-6161-474d-b370-cee447ac2229/console.sql" />
         <option value="$PROJECT_DIR$/user_profile/models.py" />
-        <option value="$PROJECT_DIR$/apartment/models.py" />
         <option value="$PROJECT_DIR$/category/models.py" />
         <option value="$PROJECT_DIR$/posts/models.py" />
         <option value="$PROJECT_DIR$/user_profile/views.py" />
@@ -265,16 +192,29 @@
         <option value="$PROJECT_DIR$/log_sys/templates/create.html" />
         <option value="$PROJECT_DIR$/log_sys/templates/LOGIN+.html" />
         <option value="$PROJECT_DIR$/log_sys/urls.py" />
-        <option value="$PROJECT_DIR$/Site/settings.py" />
         <option value="$PROJECT_DIR$/log_sys/views.py" />
         <option value="$PROJECT_DIR$/posts/templates/login.html" />
-        <option value="$PROJECT_DIR$/Site/urls.py" />
         <option value="$PROJECT_DIR$/posts/templates/create.html" />
-        <option value="$PROJECT_DIR$/posts/templates/base.html" />
         <option value="$PROJECT_DIR$/posts/templates/forms.py" />
         <option value="$PROJECT_DIR$/posts/forms.py" />
-        <option value="$PROJECT_DIR$/posts/templates/index.html" />
         <option value="$PROJECT_DIR$/posts/views.py" />
+        <option value="$PROJECT_DIR$/posts/tests/test_views.py" />
+        <option value="$PROJECT_DIR$/log_sys/tests/test_views.py" />
+        <option value="$PROJECT_DIR$/category/tests/test_models.py" />
+        <option value="$PROJECT_DIR$/apartment/tests/urls.py" />
+        <option value="$PROJECT_DIR$/Site/urls.py" />
+        <option value="$PROJECT_DIR$/apartment/views.py" />
+        <option value="$PROJECT_DIR$/posts/templates/index.html" />
+        <option value="$PROJECT_DIR$/apartment/models.py" />
+        <option value="$PROJECT_DIR$/Site/settings.py" />
+        <option value="$PROJECT_DIR$/order/admin.py" />
+        <option value="$PROJECT_DIR$/posts/templates/base.html" />
+        <option value="$PROJECT_DIR$/apartment/templates/room.html" />
+        <option value="$PROJECT_DIR$/apartment/urls.py" />
+        <option value="$PROJECT_DIR$/order/views.py" />
+        <option value="$PROJECT_DIR$/order/models.py" />
+        <option value="$PROJECT_DIR$/apartment/templates/order.html" />
+        <option value="$PROJECT_DIR$/apartment/tests/test_models.py" />
       </list>
     </option>
   </component>
@@ -296,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,18 +251,30 @@
             <path>
               <item name="Site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Site" type="462c0819:PsiDirectoryNode" />
-              <item name="log_sys" type="462c0819:PsiDirectoryNode" />
+              <item name="apartment" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Site" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Site" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="apartment" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Site" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Site" type="b2602c69:ProjectViewProjectNode" />
@@ -334,6 +285,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,9 +296,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_Uni\5 сем МодТест\Site\apartment\tests" />
+      <recent name="D:\_Uni\5 сем МодТест\Site\apartment\templates" />
+      <recent name="D:\_Uni\5 сем МодТест\Site\category" />
       <recent name="D:\_Uni\5 сем МодТест\Site\apartment" />
       <recent name="D:\_Uni\5 сем МодТест\Site\log_sys" />
-      <recent name="D:\_Uni\5 сем МодТест\Site\posts\tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\_Uni\5 сем МодТест\Site\posts" />
@@ -365,7 +319,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test_views">
+    <configuration name="test_views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Site" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/posts/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/posts/tests/test_views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Site" type="Python.DjangoServer" factoryName="Django server">
       <module name="Site" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -389,6 +365,15 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.Site" />
+      <item itemvalue="Python.test_views" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_views" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -401,6 +386,21 @@
       <option name="presentableId" value="Default" />
       <updated>1541245525405</updated>
     </task>
+    <task id="LOCAL-00001" summary="+">
+      <created>1543793066986</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543793066986</updated>
+    </task>
+    <task id="LOCAL-00002" summary="+">
+      <created>1543793311235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543793311235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -414,13 +414,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12532134" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13881747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4993573" weight="0.32884097" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.76735216" weight="0.2722372" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -428,8 +429,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24164525" side_tool="true" weight="0.29245284" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.7583548" visible="true" weight="0.16846362" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.39138818" side_tool="true" visible="true" weight="0.17115903" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.6086118" visible="true" weight="0.17115903" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Console" order="13" sideWeight="0.5437018" weight="0.32884097" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -445,93 +446,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="+" />
+    <option name="LAST_COMMIT_MESSAGE" value="+" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/base_user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="355" column="6" selection-start-line="355" selection-start-column="6" selection-end-line="355" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_profile/migrations/0001_initial.py" />
-    <entry file="file://$PROJECT_DIR$/apartament/models.py" />
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/deletion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4464">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/category/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apartment/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/urls/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/views/generic/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/migrations/0001_initial.py" />
-    <entry file="file://$PROJECT_DIR$/posts/templates/Posts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user_profile/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/login.html" />
-    <entry file="file://$PROJECT_DIR$/user_profile/templates/login.html" />
-    <entry file="file://$PROJECT_DIR$/user_profile/urls.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5511" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apartment/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-721728440/builtins.py">
@@ -555,38 +477,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user_profile/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/contrib/auth/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/category/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-            <marker date="1543232744320" expanded="true" signature="227:301" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apartment/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="86" selection-start-line="9" selection-start-column="86" selection-end-line="9" selection-end-column="95" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,9 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,50 +541,15 @@
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/useless.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" selection-start-line="71" selection-end-line="75" selection-end-column="16" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/posts/tests.py" />
+    <entry file="file://$PROJECT_DIR$/apartment/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/log_sys/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/log_sys/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log_sys/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log_sys/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Site/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="131" column="24" selection-start-line="131" selection-start-column="24" selection-end-line="131" selection-end-column="24" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/posts/tests/test_models.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/posts/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -705,61 +561,223 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Site/urls.py">
+    <entry file="file://$PROJECT_DIR$/Site/useless.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        <state relative-caret-position="159">
+          <caret line="71" selection-start-line="71" selection-end-line="75" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_sys/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/category/tests/test_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/tests/test_views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="35" column="59" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartment/tests/urls.py" />
+    <entry file="file://$PROJECT_DIR$/category/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="10" selection-start-line="5" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <marker date="1543232744320" expanded="true" signature="227:301" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_sys/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user_profile/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="49" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_sys/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1239">
+          <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartment/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="32" column="42" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/posts/templates/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        <state relative-caret-position="232">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="21" selection-end-column="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/log_sys/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="83" column="10" selection-start-line="83" selection-start-column="10" selection-end-line="83" selection-end-column="10" />
-          <folding>
-            <element signature="e#1137#1181#0#HTML" expanded="true" />
-            <element signature="e#4144#4167#0#HTML" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartment/templates/room.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log_sys/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="37" lean-forward="true" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartment/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartment/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/posts/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="442">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1543789305292" expanded="true" signature="2000:2006" ph="..." />
-            <marker date="1543789305292" expanded="true" signature="2323:2329" ph="..." />
-            <marker date="1543789305292" expanded="true" signature="2759:2789" ph="..." />
+            <marker date="1543827736333" expanded="true" signature="1434:1834" ph="..." />
+            <marker date="1543827736333" expanded="true" signature="1828:1834" ph="..." />
+            <marker date="1543827736333" expanded="true" signature="2194:2200" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/tests.py">
+    <entry file="file://$PROJECT_DIR$/order/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <marker date="1544293220094" expanded="true" signature="172:177" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartment/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <marker date="1544269659278" expanded="true" signature="241:242" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Site/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <marker date="1544293063031" expanded="true" signature="260:535" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartment/templates/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="14" selection-start-line="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apartment/tests/test_views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/tests/test_models.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/posts/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="106" column="105" selection-start-line="106" selection-start-column="82" selection-end-line="106" selection-end-column="105" />
+          <folding>
+            <element signature="e#4603#4626#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/tests/test_views.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/apartment/tests/test_models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <marker date="1544342658799" expanded="true" signature="1670:1679" ph="..." />
+            <marker date="1544342658799" expanded="true" signature="1867:1876" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log_sys/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apartment/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/apartment/tests/test_models_pytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+
+{% block center %}
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-5">
+            {% if success != 'True' %}
+                {% if not user.is_authenticated %}
+                    <h1 class="h3 mb-3 font-weight-normal">Для заказа необходимо авторизоваться</h1>
+                    <a class="btn btn-block btn-primary" href="{% url 'user:login' %}">Войти</a>
+                    <h1 class="h3 mb-3 font-weight-normal">У вас ещё нет аккаунта?</h1>
+                    <a class="btn btn-block btn-primary" href="{% url 'user:create_user' %}">Регистрация</a>
+                {% else %}
+                    <form class="form" method="post">
+                        {% csrf_token %}
+                        <h1 class="h3 mb-3 font-weight-normal">Пожалуйста, введите данные для заказа</h1>
+                        <!--<input type="hidden" name="csrfmiddlewaretoken" value="dTnXgjg6DMWRwZL7RKewCshYdGmE4fyPni2lGn5oXOVvB2YFAQTpQQbNfpmc20Yx">-->
+
+                        <span class="helptext">Введите свой номер телефона чтобы мы могли связаться с вами</span>
+                        <p><label for="id_first_name">Номер:</label>
+                            <input type="text" name="tel_number" maxlength="14" class="form-control" id="id_number"></p>
+
+                        <span class="helptext">Введите дополнительную информацию</span>
+                        <p><label for="id_first_name"></label>
+                            <textarea class="form-control" id="id_text" maxlength="300" name="text" aria-label="With textarea"
+                                      placeholder="Не более трёхста символов"></textarea></p>
+
+                        {% if success == 'False' %}
+                            <span class="badge badge-warning">Проверьте верность введённого номера телефона</span>
+                        {% endif %}
+                        <button class="btn btn-block btn-primary" role="button" type="submit" href="{% url 'room:get_order' room.id %}">Показать</button>
+                    </form>
+                {% endif %}
+            {% else %}
+                <h1 class="h3 mb-3 font-weight-normal">Заказ успешно создан, ожидайте пока с вами свяжется наш оператор</h1>
+                <a class="btn btn-block btn-primary" href="{% url 'home' %}">На главную</a>
+            {% endif %}
+
+        </div>
+        <div class="col">
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block content %}
+
+{% endblock %}
+
+{% block left %}
+
+{% endblock %}

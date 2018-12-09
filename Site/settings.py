@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'user_profile',
     'apartment',
     'category',
-    'log_sys'
+    'log_sys',
+    'order'
 ]
 
 MIDDLEWARE = [

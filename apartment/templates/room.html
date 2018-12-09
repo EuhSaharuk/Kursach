@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+
+{% block center %}
+    <!--
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                {% if room.image %}
+                    <img class="d-block w-100"  alt="First slide" src={{ room.image.url }}>
+                {% endif %}
+            </div>
+        </div>
+    </div>-->
+{% endblock %}
+
+
+{% block content %}
+    <div class="card">
+        <img class="card-img-top" src={{ room.image.url }}>
+        <h5 class="card-header">{{ room }}</h5>
+        <div class="card-body">
+            <p class="card-text">{{ room.text }}</p>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block left %}
+    <span class="border border-white">
+    <form class="form mb-5" method="post" name="form">
+    {% csrf_token %}
+        <nav class="navbar navbar-light bg-light">
+            <h4><b>Тэги</b></h4>
+        </nav>
+        {% for i in tag %}
+            <span class="badge badge-info" style="padding:5px 10px; margin: 5px">{{ i }}</span>
+        {% endfor %}
+        <nav class="navbar navbar-light bg-light">
+            <h4><b>Категория</b></h4>
+        </nav>
+        <a class="badge badge-info" href="#" style="padding:5px 10px; margin: 5px">{{ room.category }}</a>
+        <nav class="navbar navbar-light bg-light">
+            <h4><b>Цена</b></h4>
+        </nav>
+        <h3> <span class="badge badge-light" style="padding:5px 10px; margin: 5px">{{ room.price }}</span></h3>
+        <a href="{% url 'room:get_order' room.id %}" class="btn btn-primary btn-block">Заказать</a>
+        {% if is_staff == "True" %}
+        <a href="/admin/apartment/apartment/{{ room.id }}/change/" class="btn btn-primary btn-block">Редактировать</a>
+        {% endif %}
+    </form>
+    </span>
+{% endblock %}

@@ -32,7 +32,9 @@
                 {% for room in rooms %}
 
                     <div class="card bg-light" style="min-width: 18rem; margin-bottom:10px">
+                        {% if room.image %}
                         <img class="card-img-top" src={{ room.image.url }} width="360" alt="sd">
+                        {% endif %}
                         <div class="card-body">
                             <h5 class="card-title"><b>{{ room }}</b></h5>
                             <!--<a class="badge badge-info" href="">{{ room.category }}</a>-->
@@ -45,7 +47,7 @@
                             <table cellspacing="0" cellpadding="0">
                                 <tr>
                                     <td>
-                                        <span style="padding:0px 10px;"><a href="#"
+                                        <span style="padding:0px 10px;"><a href="{% url "room:get_room" room.id %}"
                                                                            class="btn btn-outline-primary btn-group-vertical">Подробнее</a></span>
                                     </td>
                                     <td>
@@ -73,7 +75,7 @@
         </nav>
         {% for i in tag %}
             <div class="custom-control custom-checkbox">
-          <input type="checkbox" class="custom-control-input" id={{ i }} name="tag{{ i.id }}">
+          <input type="checkbox" class="custom-control-input" id={{ i }} value={{ i.id }} name="tag{{ i.id }}">
           <label class="custom-control-label" for={{ i }}>{{ i}}</label>
         </div>
         {% endfor %}
