@@ -20,8 +20,6 @@ class Order(View):
     def post(self, request, identity):
         success = 'False'
         number = request.POST.get("tel_number")
-        print(number)
-        print("\n\n\t*******\t***********\t********************************\n")
         text = request.POST.get("text")
         if len(number) > 8:
             O.objects.create(customer=auth.get_user(request), text=text, phone_number=number,
@@ -43,3 +41,13 @@ class Order(View):
                    'success': 'None'}
 
         return render(request, 'order.html', context)
+
+    @staticmethod
+    def get_orders_page(request):
+        orders = O.objects.all()
+
+        context = {'orders': orders,
+                   'is_staff': auth.get_user(request).is_staff.__str__()}
+        return render(request, 'orders_page.html', context)
+
+

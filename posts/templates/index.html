@@ -33,7 +33,7 @@
 
                     <div class="card bg-light" style="min-width: 18rem; margin-bottom:10px">
                         {% if room.image %}
-                        <img class="card-img-top" src={{ room.image.url }} width="360" alt="sd">
+                            <img class="card-img-top" src={{ room.image.url }} width="360" alt="sd">
                         {% endif %}
                         <div class="card-body">
                             <h5 class="card-title"><b>{{ room }}</b></h5>
@@ -76,7 +76,7 @@
         {% for i in tag %}
             <div class="custom-control custom-checkbox">
           <input type="checkbox" class="custom-control-input" id={{ i }} value={{ i.id }} name="tag{{ i.id }}">
-          <label class="custom-control-label" for={{ i }}>{{ i}}</label>
+          <label class="custom-control-label" for={{ i }}>{{ i }}</label>
         </div>
         {% endfor %}
 

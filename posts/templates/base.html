@@ -41,6 +41,7 @@
                     <a class="btn btn-outline-success my-2 my-sm-0">{{ username }} </a>
                     {% if is_staff == "True" %}
                         <a class="btn btn-outline-success my-2 my-sm-0" href="/admin/">Администрация</a>
+                        <a class="btn btn-outline-success my-2 my-sm-0" href="{% url 'orders:orders_page' %}">Заказы</a>
                     {% endif %}
                 {% endif %}
                 <a class="btn btn-outline-success my-2 my-sm-0" href="{% url 'user:logout' %}" role="button">Выйти</a>

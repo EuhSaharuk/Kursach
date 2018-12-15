@@ -9,6 +9,7 @@ class UserCreateView(CreateView):
     template_name = 'create.html'
     success_url = '/'
 
+
     # def get(self, request, *args, **kwargs):
     #     print("***********************************************************************")
     #     return render_to_response('create.html')

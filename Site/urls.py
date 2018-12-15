@@ -12,11 +12,12 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls, name='administration'),
-    # path('', Index.get_custom, name='custom'),
     path('', Index.as_view(), name='home'),
     path('room/', include('apartment.urls', namespace='room')),
-
     path('user/', include('log_sys.urls', namespace='user')),
+    path('orders/', include('order.urls', namespace='orders')),
+
+    # path('', Index.get_custom, name='custom'),
     # path('<str:id>/', Index.get_by_category, name='room_cat_url')
     # re_path(r'^user/(\w+)/$', Profile.as_view())
     # path('user/', include(urls))

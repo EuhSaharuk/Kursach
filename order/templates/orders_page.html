@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% load staticfiles %}
+
+
+{% block center %}
+    <div class="row">
+        <div class="col">
+        </div>
+        <div class="col-5">
+            {% if is_staff != 'True' %}
+                <h3 class="h3 mb-3 font-weight-normal">Нет тебе сюдаа пути</h3>
+            {% else %}
+                {% for order in orders %}
+                    <div class="card" style="margin-top: 10px   ">
+                        <h5 class="card-header">{{ order.apartment}}</h5>
+                        <div class="card-body">
+                            <p class="card-text">{{ order.date }}</p>
+                            <a><p class="card-text">{{ order.customer }}</p></a>
+                            <p class="card-text">{{ order.phone_number }}</p>
+                            <p class="card-text">{{ order.text }}</p>
+                            <a href="/admin/order/order/{{ order.id }}/change/" class="btn btn-primary btn-block">Редактировать</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+
+        </div>
+        <div class="col">
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block content %}
+
+{% endblock %}
+
+{% block left %}
+
+{% endblock %}
