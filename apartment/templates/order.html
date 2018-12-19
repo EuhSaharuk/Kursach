@@ -32,7 +32,7 @@
                         {% if success == 'False' %}
                             <span class="badge badge-warning">Проверьте верность введённого номера телефона</span>
                         {% endif %}
-                        <button class="btn btn-block btn-primary" role="button" type="submit" href="{% url 'room:get_order' room.id %}">Показать</button>
+                        <button class="btn btn-block btn-primary" role="button" type="submit" href="{% url 'room:get_order' room.id %}">Бронировать</button>
                     </form>
                 {% endif %}
             {% else %}

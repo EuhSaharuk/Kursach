@@ -1,4 +1,3 @@
-from django.contrib import auth
 from django.db import models
 from apartment.models import Apartment
 from django.contrib.auth.models import User

@@ -1,7 +1,6 @@
 from django.test import TestCase
 from apartment.models import Apartment
 from category.models import Category, Tag
-from django.db import models
 
 
 class ApartmentModelTest(TestCase):
@@ -57,3 +56,4 @@ class ApartmentModelTest(TestCase):
         author = Apartment.objects.get(id=1)
         field_label = author._meta.get_field('active').verbose_name
         self.assertEquals(field_label, 'active')
+

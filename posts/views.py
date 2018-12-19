@@ -1,11 +1,8 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 from django.views import View
 from apartment.models import Apartment
 from category.models import Category, Tag
 from django.contrib import auth
-from .forms import MyUserCreationForm
-# Create your views here. python manage.py runserver
 
 
 class Index(View):
@@ -50,7 +47,6 @@ class Index(View):
 
     @staticmethod
     def get_absolute_url():
-        print("dfijkdfjddff*****************")
         rooms = Apartment.objects.all()
         categories = Category.objects.all()
         tags = Tag.objects.all()

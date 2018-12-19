@@ -20,7 +20,7 @@
 {% block content %}
     <div class="card">
         {% if room.image %}
-            <img class="card-img-top" src="{{ room.image.url }}" alt="sd">
+            <img class="card-img-top" src={{ room.image.url }} alt="sd">
         {% endif %}
         <h5 class="card-header">{{ room }}</h5>
         <div class="card-body">

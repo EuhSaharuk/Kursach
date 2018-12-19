@@ -4,6 +4,7 @@ from apartment.models import Apartment
 from category.models import Category, Tag
 from django.contrib.auth.models import User
 
+
 class IndexViewTest(TestCase):
 
     @classmethod
@@ -18,8 +19,6 @@ class IndexViewTest(TestCase):
         Apartment.objects.create(name="room5", text="room5", price=230, category=Category.objects.get(id=2))
 
     def test_Index_get_success(self):
-        r = RequestFactory().get('/')
-        r.user = User.objects.create(username="user", password="123qwe", is_staff=False)
         resp = self.client.get('/')
         self.assertEqual(resp.status_code, 200)
         self.assertTemplateUsed(resp, 'index.html')
@@ -36,6 +35,42 @@ class IndexViewTest(TestCase):
         self.assertTrue(resp.context['is_staff'] != "True")
         self.assertTrue(resp.context['username'] == '')
         self.assertEqual(resp.context['rooms'].__str__(), Apartment.objects.all().__str__())
+        self.assertEqual(resp.context['category'].__str__(), Category.objects.all().__str__())
+        self.assertEqual(resp.context['tag'].__str__(), Tag.objects.all().__str__())
+
+    def test_Index_post_sort_by_cat_success(self):
+        resp = self.client.post('/', {'category': '1', 'sort': 'increase'})
+        rooms = Apartment.objects.all()
+        exp_rooms = rooms.filter(category="1").order_by('price')
+        self.assertEqual(resp.status_code, 200)
+        self.assertTemplateUsed(resp, 'index.html')
+        self.assertTrue(resp.context['is_staff'] != "True")
+        self.assertTrue(resp.context['username'] == '')
+        self.assertEqual(resp.context['rooms'].__str__(), exp_rooms.__str__())
+        self.assertEqual(resp.context['category'].__str__(), Category.objects.all().__str__())
+        self.assertEqual(resp.context['tag'].__str__(), Tag.objects.all().__str__())
+
+    def test_Index_post_by_cat_success(self):
+        resp = self.client.post('/', {'category': '1'})
+        rooms = Apartment.objects.all()
+        exp_rooms = rooms.filter(category="1")
+        self.assertEqual(resp.status_code, 200)
+        self.assertTemplateUsed(resp, 'index.html')
+        self.assertTrue(resp.context['is_staff'] != "True")
+        self.assertTrue(resp.context['username'] == '')
+        self.assertEqual(resp.context['rooms'].__str__(), exp_rooms.__str__())
+        self.assertEqual(resp.context['category'].__str__(), Category.objects.all().__str__())
+        self.assertEqual(resp.context['tag'].__str__(), Tag.objects.all().__str__())
+
+    def test_Index_post_sort_success(self):
+        resp = self.client.post('/', {'sort': 'increase'})
+        rooms = Apartment.objects.all()
+        exp_rooms = rooms.order_by('price')
+        self.assertEqual(resp.status_code, 200)
+        self.assertTemplateUsed(resp, 'index.html')
+        self.assertTrue(resp.context['is_staff'] != "True")
+        self.assertTrue(resp.context['username'] == '')
+        self.assertEqual(resp.context['rooms'].__str__(), exp_rooms.__str__())
         self.assertEqual(resp.context['category'].__str__(), Category.objects.all().__str__())
         self.assertEqual(resp.context['tag'].__str__(), Tag.objects.all().__str__())
 

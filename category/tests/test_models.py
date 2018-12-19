@@ -1,8 +1,5 @@
 from django.test import TestCase
-from apartment.models import Apartment
-from category.models import Category, Tag
-from django.db import models
-# Create your tests here.
+from category.models import Category
 
 
 class CategoryModelTest(TestCase):
